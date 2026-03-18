@@ -109,7 +109,7 @@ class Qwen3EvaluatorTool:
         model: str = "qwen2.5",
         api_key: str = "EMPTY",
         system_message: Optional[str] = None,
-        max_tokens: int = 16384,
+        max_tokens: int = 131072,
         **kwargs
     ):
         today = date.today().isoformat()

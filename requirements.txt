@@ -1,0 +1,15 @@
+duckdb
+faiss-cpu
+fastapi
+huggingface-hub
+httpx
+matplotlib
+nltk
+numpy
+openai
+openai-harmony
+orjson
+psutil
+pymongo
+tqdm
+uvicorn

@@ -26,7 +26,7 @@ ACADEMIC_SYS_PROMPT = """You are an advanced Qwen assistant integrated into a to
 
 # Capabilities and constraints
 
-- You are a large language model with a knowledge cutoff at 2024-06.
+- You are a large language model with a knowledge cutoff at 2025-07.
 - You have strong reasoning ability and should perform deliberate, step-by-step thinking before answering.
 - You can access external tools via the built-in tool-calling mechanism to obtain up-to-date information, verify facts, and support complex reasoning.
 - When you lack enough information, or when questions involve recent events or specific factual details, you MUST actively consider using tools rather than guessing.
@@ -108,7 +108,7 @@ class Qwen3EvaluatorTool:
         model: str = "Qwen3-30B-A3B-Thinking-2507",
         api_key: str = "EMPTY",
         system_message: Optional[str] = None,
-        max_tokens: int = 65536,
+        max_tokens: int = 131072,
         enable_thinking: bool = True,
         **kwargs
     ):

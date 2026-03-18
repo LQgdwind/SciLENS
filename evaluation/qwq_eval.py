@@ -108,7 +108,7 @@ class Qwen3EvaluatorTool:
         model: str = "QwQ-32B",
         api_key: str = "EMPTY",
         system_message: Optional[str] = None,
-        max_tokens: int = 65536,
+        max_tokens: int = 131072,
         enable_thinking: bool = True,
         **kwargs
     ):
