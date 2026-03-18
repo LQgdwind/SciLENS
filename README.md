@@ -67,8 +67,10 @@ submit/
 
 ## Quick Usage
 
-1. Install dependencies: `pip install -r requirements.txt`.
-2. Start required backend services first (for example database/vector service/model service), then run evaluation scripts.
-3. Data generation scripts are under `data_synthesis/`; filtering scripts are under `data_filter/`.
-4. Run benchmark judging with `text_benchmark/judge.py` and `vis_benchmark/judge.py`.
-5. Use scripts in `evaluation/` for model serving and end-to-end evaluation workflows.
+Install dependencies: `pip install -r requirements.txt`.
+
+Run rollout in `evaluation/` to generate model trajectories/results.
+
+Evaluate the rollout outputs with `text_benchmark/judge.py` and `vis_benchmark/judge.py`.
+
+Data generation scripts are under `data_synthesis/`; filtering scripts are under `data_filter/`.
